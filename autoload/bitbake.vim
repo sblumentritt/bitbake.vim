@@ -8,7 +8,7 @@ function! bitbake#gather_candidates(type) abort
         throw 'Invalid type specified!'
     endif
 
-    for item in readfile(s:get_plugin_path() . 'assets/' . a:type . '_bitbake')
+    for item in readfile(s:get_plugin_path() . '/assets/' . a:type . '_bitbake')
         call add(l:bitbake_candidates, {'word': item, 'kind': a:type})
     endfor
 
