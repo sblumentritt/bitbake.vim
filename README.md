@@ -10,14 +10,13 @@
 
 #### Description
 
-Provides bitbake file detection + syntax highlighting and completion for [coc.nvim][] / [deoplete.nvim][].
+Provides bitbake file detection + syntax highlighting and completion for
+[coc.nvim][] / [deoplete.nvim][].
 
 #### Completion
 
-The completion support is only rudimentary with tasks / variables / flags from [yocto poky][].
-
-> The **master** branch does not contain any completion assets instead check out the specific
-> [yocto poky][] related branch.
+The completion support is only rudimentary with tasks / variables / flags from
+[yocto poky][] (thud 2.6.3).
 
 #### Assets
 
@@ -36,7 +35,7 @@ cat poky/meta/conf/bitbake.conf | rg "[-a-zA-Z\${}_]+ [?+=]+" -o | rg "[-a-zA-Z\
 https://www.yoctoproject.org/docs/<version>/bitbake-user-manual/bitbake-user-manual.html#variable-flags
 ```
 
-- **tasks** are manually copied from the chapter toc and filtered in neovim:
+- **tasks** are manually copied from the chapter TOC and filtered in neovim:
 
 ```
 https://www.yoctoproject.org/docs/<version>/mega-manual/mega-manual.html#ref-tasks
