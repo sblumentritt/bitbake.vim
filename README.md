@@ -1,24 +1,16 @@
-## bitbake.vim
-
-#### Table of Contents
-
-- [Description](#description)
-- [Completion](#completion)
-- [Assets](#assets)
-- [Credits](#credits)
-- [License](#license)
-
-#### Description
+# bitbake.vim
 
 Provides bitbake file detection + syntax highlighting and completion for
 [coc.nvim][] / [deoplete.nvim][].
 
-#### Completion
+[[_TOC_]]
+
+## Completion
 
 The completion support is only rudimentary with tasks / variables / flags from
 [yocto poky][] (thud 2.6.3).
 
-#### Assets
+## Assets
 
 This section describes how the assets were gathered.
 
@@ -43,13 +35,15 @@ neovim -> :%s/.\{-}\(do_\w*\)/\1/g
 neovim -> :sort
 ```
 
-#### Credits
+## Credits
 
-Inspiration and regexes for the syntax file where found at [bitbake/contrib/vim][].
+Inspiration and regexes for the syntax file where found at
+[bitbake/contrib/vim][].
 
-#### License
+## License
 
-The project is licensed under the MIT license. See [LICENSE](LICENSE) for more information.
+The project is licensed under the MIT license. See [LICENSE](LICENSE) for more
+information.
 
 [coc.nvim]: https://github.com/neoclide/coc.nvim
 [deoplete.nvim]: https://github.com/Shougo/deoplete.nvim
