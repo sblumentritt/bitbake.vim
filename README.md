@@ -1,7 +1,7 @@
 # bitbake.vim
 
 Provides bitbake file detection + syntax highlighting and completion for
-[coc.nvim][] / [deoplete.nvim][].
+[completion-nvim][] / [coc.nvim][] / [deoplete.nvim][].
 
 [[_TOC_]]
 
@@ -47,5 +47,6 @@ information.
 
 [coc.nvim]: https://github.com/neoclide/coc.nvim
 [deoplete.nvim]: https://github.com/Shougo/deoplete.nvim
+[completion-nvim]: https://github.com/nvim-lua/completion-nvim
 [yocto poky]: https://git.yoctoproject.org/cgit.cgi/poky/
 [bitbake/contrib/vim]: https://github.com/openembedded/bitbake/tree/master/contrib/vim
