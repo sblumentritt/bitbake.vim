@@ -3,7 +3,12 @@
 Provides bitbake file detection + syntax highlighting and completion for
 [completion-nvim][] / [coc.nvim][] / [deoplete.nvim][].
 
-[[_TOC_]]
+## Table of Contents
+
+* [Completion](#completion)
+* [Assets](#assets)
+* [Credits](#credits)
+* [License](#license)
 
 ## Completion
 
